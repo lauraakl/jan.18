@@ -1,7 +1,7 @@
 def lasit_datni():
     try:
-        with open('1.uzd.txt',"w", encoding='utf8') as datne:
-            datne.write(input("ievadi tekstu: "))
+        with open('uzd.txt',"w", encoding='utf8') as datne:
+            datne.write("ara snieg sniegs ")
 
     except FileNotFoundError:
         print("datne nav strasta!")
