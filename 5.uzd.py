@@ -1,0 +1,1 @@
+vards=int(input("ievadi savu vārdu: "))

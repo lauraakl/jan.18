@@ -1,8 +1,7 @@
 def lasit_datni():
     try:
-        with open('1.uzd.txt',"r", encoding='utf8') as datne:
-            print(datne.readline())
-            print(datne.readline())
+        with open('1.uzd.txt',"w", encoding='utf8') as datne:
+            datne.write(input("ievadi tekstu: "))
 
     except FileNotFoundError:
         print("datne nav strasta!")
@@ -10,3 +9,7 @@ def lasit_datni():
 
         if __name__=="__main__":
             lasit_datni()
+
+"""
+ASCII
+"""
